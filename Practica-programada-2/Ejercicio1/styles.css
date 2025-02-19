@@ -1,6 +1,9 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #dddbff;
+    font-family: Helvetica, sans-serif;
+    background-image: url('https://i.pinimg.com/736x/b1/78/bb/b178bb5e8080db1a2f46051f010a25a9.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +16,7 @@ body {
     padding: 40px;
     padding-top: 28px;
     border-radius: 30px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     width: 350px;
     text-align: center;
 }
@@ -41,14 +44,14 @@ input, button {
 }
 
 button {
-    background-color: #0d0047;
+    background-color: #5e0a5e;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #a0115f;
 }
 
 .hidden {

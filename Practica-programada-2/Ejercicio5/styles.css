@@ -5,16 +5,21 @@ body {
     background-position: center; 
     background-attachment: fixed; 
     text-align: center;
-    padding: 50px;
+    padding: 20px;
 }
 
 .container {
-    background: rgb(247, 246, 250);
-    padding: 80px;
-    margin-top: 45px;
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    padding-top: 30px;
+    margin-top: 60px;
     border-radius: 20px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     display: inline-block;
+}
+
+h1 {
+    margin-top: 1px;
 }
 
 button {
@@ -31,3 +36,31 @@ button {
 button:hover {
     background-color: #a0115f;
 }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #5e0a5e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#promedio {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 18px;
+}
+

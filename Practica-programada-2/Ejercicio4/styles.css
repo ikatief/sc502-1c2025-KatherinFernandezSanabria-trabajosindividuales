@@ -1,6 +1,9 @@
 body {
     font-family: Helvetica, sans-serif;
-    background-color: #ebeaf3;
+    background-image: url('https://i.pinimg.com/736x/b1/78/bb/b178bb5e8080db1a2f46051f010a25a9.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
     text-align: center;
     padding: 187px;
 }
@@ -16,7 +19,7 @@ h1 {
     padding-bottom: 25px;
     width: 400px;
     border-radius: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.8);
     display: inline-block;
 }
 
@@ -28,7 +31,7 @@ input {
 }
 
 button {
-    background-color: #080949;
+    background-color: #5e0a5e;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -38,7 +41,7 @@ button {
 }
 
 button:hover {
-    background-color: #261bc7;
+    background-color: #a0115f;
 }
 
 #resultado {
