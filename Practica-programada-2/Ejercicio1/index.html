@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cálculadora de salario neto en Costa Rica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de salario en Costa Rica</h1>
+        <form id="formularioSalario">
+            <label for="salariobruto">Salario bruto:</label>
+            <input type="number" id="salariobruto" required>
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="results" class="hidden">
+            <p>Cargas Sociales: <span id="cargasSociales"></span> colones</p>
+            <p>Impuesto sobre la Renta: <span id="impuestoRenta"></span> colones</p>
+            <p>Salario Neto: <span id="salarioNeto"></span> colones</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
