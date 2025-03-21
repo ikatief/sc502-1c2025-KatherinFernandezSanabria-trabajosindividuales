@@ -1,0 +1,10 @@
+Id de transacción: 1, Descripción de transacción: Maquillaje, Monto de transacción: 25000
+Id de transacción: 2, Descripción de transacción: Bolso, Monto de transacción: 15000
+Id de transacción: 3, Descripción de transacción: Ropa, Monto de transacción: 40000
+Id de transacción: 4, Descripción de transacción: Stanley, Monto de transacción: 30000
+
+
+Monto sin intereses: 110000
+Monto con intereses: 112860
+Cashback: 110
+Monto final a pagar con los interesqs: 112750
