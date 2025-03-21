@@ -91,7 +91,7 @@
         <?php
             if (isset($_POST['registrar'])) {
                 $estadoDeCuenta = generarEstadoDeCuenta($transacciones, $monto, $montoEIntereses, $cashback, $montoFinal);
-                $archivo = fopen("archivq.txt", "w"); 
+                $archivo = fopen("estado_cuentq.txt", "w"); 
                 foreach ($transacciones as $transaccion) {
                     $registrotransaccion = "Id de transacción: " . $transaccion['id'] . 
                     ", Descripción de transacción: " . $transaccion['descripcion'] . 
